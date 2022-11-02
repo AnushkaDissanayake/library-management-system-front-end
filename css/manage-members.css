@@ -1,0 +1,110 @@
+header {
+  position: relative;
+}
+header h3 ion-icon {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+header #btn-home {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 2rem;
+  color: black;
+  background-color: lightgrey;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+header #btn-home ion-icon {
+  vertical-align: sub;
+}
+header #btn-home:hover {
+  background-color: rgba(182, 181, 181, 0.959);
+}
+
+#tbl-members th:first-child,
+#tbl-members tbody td:first-child {
+  max-width: 170px;
+  min-width: 110px;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#tbl-members th:nth-child(2),
+#tbl-members tbody td:nth-child(2) {
+  width: 250px;
+}
+#tbl-members th:last-child,
+#tbl-members tbody td:last-child {
+  width: 150px;
+  text-align: center;
+}
+
+.empty tfoot {
+  display: table-footer-group;
+}
+
+#loader {
+  display: flex;
+  justify-content: center;
+}
+#loader .lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+#loader .lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: blue;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+#loader .lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+#loader .lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+#loader .lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+#loader .lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+/*# sourceMappingURL=manage-members.css.map */

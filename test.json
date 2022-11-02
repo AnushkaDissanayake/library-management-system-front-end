@@ -1,0 +1,20 @@
+[
+    {
+        "id":"M001",
+        "name":"Anushka Madusanka",
+        "address": "335/A Girandurukotte",
+        "contact":"077-8959589"
+    },
+    {
+        "id":"M002",
+        "name":"Dasun Randil",
+        "address": "08 Badulla",
+        "contact":"071-3257642"
+    },
+    {
+        "id":"M003",
+        "name":"Nipun",
+        "address": "Kribath Kumbura",
+        "contact":"077-9632547"
+    }
+]
